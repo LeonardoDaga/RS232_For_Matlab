@@ -1,0 +1,4 @@
+LIBRARY RS232_Wait_Buffer_Synch.mexw64
+
+EXPORTS
+mexFunction

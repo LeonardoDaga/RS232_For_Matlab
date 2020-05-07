@@ -1,0 +1,4 @@
+LIBRARY RS232_ReadB_Buffer.mexw64
+
+EXPORTS
+mexFunction

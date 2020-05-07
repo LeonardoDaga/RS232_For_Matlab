@@ -1,0 +1,4 @@
+LIBRARY RS232_Buffer_Size.mexw64
+
+EXPORTS
+mexFunction

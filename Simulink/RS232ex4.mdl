@@ -1,0 +1,394 @@
+Model {
+  Name			  "RS232ex4"
+  Version		  5.0
+  SaveDefaultBlockParams  on
+  SampleTimeColors	  off
+  LibraryLinkDisplay	  "none"
+  WideLines		  off
+  ShowLineDimensions	  on
+  ShowPortDataTypes	  on
+  ShowLoopsOnError	  on
+  IgnoreBidirectionalLines off
+  ShowStorageClass	  off
+  ExecutionOrder	  off
+  RecordCoverage	  off
+  CovPath		  "/"
+  CovSaveName		  "covdata"
+  CovMetricSettings	  "dw"
+  CovNameIncrementing	  off
+  CovHtmlReporting	  on
+  covSaveCumulativeToWorkspaceVar on
+  CovSaveSingleToWorkspaceVar on
+  CovCumulativeVarName	  "covCumulativeData"
+  CovCumulativeReport	  off
+  DataTypeOverride	  "UseLocalSettings"
+  MinMaxOverflowLogging	  "UseLocalSettings"
+  MinMaxOverflowArchiveMode "Overwrite"
+  BlockNameDataTip	  off
+  BlockParametersDataTip  off
+  BlockDescriptionStringDataTip	off
+  ToolBar		  on
+  StatusBar		  on
+  BrowserShowLibraryLinks off
+  BrowserLookUnderMasks	  off
+  Created		  "Sun Mar 02 19:35:16 2003"
+  UpdateHistory		  "UpdateHistoryNever"
+  ModifiedByFormat	  "%<Auto>"
+  LastModifiedBy	  "leo"
+  ModifiedDateFormat	  "%<Auto>"
+  LastModifiedDate	  "Fri Jul 23 01:24:21 2004"
+  ModelVersionFormat	  "1.%<AutoIncrement:48>"
+  ConfigurationManager	  "None"
+  SimParamPage		  "Solver"
+  LinearizationMsg	  "none"
+  Profile		  off
+  ParamWorkspaceSource	  "MATLABWorkspace"
+  AccelSystemTargetFile	  "accel.tlc"
+  AccelTemplateMakefile	  "accel_default_tmf"
+  AccelMakeCommand	  "make_rtw"
+  TryForcingSFcnDF	  off
+  ExtModeMexFile	  "ext_comm"
+  ExtModeBatchMode	  off
+  ExtModeTrigType	  "manual"
+  ExtModeTrigMode	  "normal"
+  ExtModeTrigPort	  "1"
+  ExtModeTrigElement	  "any"
+  ExtModeTrigDuration	  1000
+  ExtModeTrigHoldOff	  0
+  ExtModeTrigDelay	  0
+  ExtModeTrigDirection	  "rising"
+  ExtModeTrigLevel	  0
+  ExtModeArchiveMode	  "off"
+  ExtModeAutoIncOneShot	  off
+  ExtModeIncDirWhenArm	  off
+  ExtModeAddSuffixToVar	  off
+  ExtModeWriteAllDataToWs off
+  ExtModeArmWhenConnect	  on
+  ExtModeSkipDownloadWhenConnect off
+  ExtModeLogAll		  on
+  ExtModeAutoUpdateStatusClock on
+  BufferReuse		  on
+  RTWExpressionDepthLimit 5
+  SimulationMode	  "normal"
+  Solver		  "ode3"
+  SolverMode		  "Auto"
+  StartTime		  "0.0"
+  StopTime		  "5"
+  MaxOrder		  5
+  MaxStep		  "auto"
+  MinStep		  "auto"
+  MaxNumMinSteps	  "-1"
+  InitialStep		  "auto"
+  FixedStep		  "1"
+  RelTol		  "1e-3"
+  AbsTol		  "auto"
+  OutputOption		  "RefineOutputTimes"
+  OutputTimes		  "[]"
+  Refine		  "1"
+  LoadExternalInput	  off
+  ExternalInput		  "[t, u]"
+  LoadInitialState	  off
+  InitialState		  "xInitial"
+  SaveTime		  on
+  TimeSaveName		  "tout"
+  SaveState		  off
+  StateSaveName		  "xout"
+  SaveOutput		  on
+  OutputSaveName	  "yout"
+  SaveFinalState	  off
+  FinalStateName	  "xFinal"
+  SaveFormat		  "Array"
+  Decimation		  "1"
+  LimitDataPoints	  on
+  MaxDataPoints		  "1000"
+  SignalLoggingName	  "sigsOut"
+  ConsistencyChecking	  "none"
+  ArrayBoundsChecking	  "none"
+  AlgebraicLoopMsg	  "warning"
+  BlockPriorityViolationMsg "warning"
+  MinStepSizeMsg	  "warning"
+  InheritedTsInSrcMsg	  "warning"
+  DiscreteInheritContinuousMsg "warning"
+  MultiTaskRateTransMsg	  "error"
+  SingleTaskRateTransMsg  "none"
+  CheckForMatrixSingularity "none"
+  IntegerOverflowMsg	  "warning"
+  Int32ToFloatConvMsg	  "warning"
+  ParameterDowncastMsg	  "error"
+  ParameterOverflowMsg	  "error"
+  ParameterPrecisionLossMsg "warning"
+  UnderSpecifiedDataTypeMsg "none"
+  UnnecessaryDatatypeConvMsg "none"
+  VectorMatrixConversionMsg "none"
+  InvalidFcnCallConnMsg	  "error"
+  SignalLabelMismatchMsg  "none"
+  UnconnectedInputMsg	  "warning"
+  UnconnectedOutputMsg	  "warning"
+  UnconnectedLineMsg	  "warning"
+  SfunCompatibilityCheckMsg "none"
+  RTWInlineParameters	  off
+  BlockReductionOpt	  on
+  BooleanDataType	  on
+  ConditionallyExecuteInputs on
+  ParameterPooling	  on
+  OptimizeBlockIOStorage  on
+  ZeroCross		  on
+  AssertionControl	  "UseLocalSettings"
+  ProdHWDeviceType	  "Microprocessor"
+  ProdHWWordLengths	  "8,16,32,32"
+  RTWSystemTargetFile	  "grt.tlc"
+  RTWTemplateMakefile	  "grt_default_tmf"
+  RTWMakeCommand	  "make_rtw"
+  RTWGenerateCodeOnly	  off
+  RTWRetainRTWFile	  off
+  TLCProfiler		  off
+  TLCDebug		  off
+  TLCCoverage		  off
+  TLCAssertion		  off
+  BlockDefaults {
+    Orientation		    "right"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    NamePlacement	    "normal"
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+    ShowName		    on
+  }
+  BlockParameterDefaults {
+    Block {
+      BlockType		      Display
+      Format		      "short"
+      Decimation	      "10"
+      Floating		      off
+      SampleTime	      "-1"
+    }
+    Block {
+      BlockType		      "S-Function"
+      FunctionName	      "system"
+      PortCounts	      "[]"
+      SFunctionModules	      "''"
+    }
+  }
+  AnnotationDefaults {
+    HorizontalAlignment	    "center"
+    VerticalAlignment	    "middle"
+    ForegroundColor	    "black"
+    BackgroundColor	    "white"
+    DropShadow		    off
+    FontName		    "Helvetica"
+    FontSize		    10
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  LineDefaults {
+    FontName		    "Helvetica"
+    FontSize		    9
+    FontWeight		    "normal"
+    FontAngle		    "normal"
+  }
+  System {
+    Name		    "RS232ex4"
+    Location		    [21, 74, 631, 460]
+    Open		    on
+    ModelBrowserVisibility  off
+    ModelBrowserWidth	    200
+    ScreenColor		    "white"
+    PaperOrientation	    "landscape"
+    PaperPositionMode	    "auto"
+    PaperType		    "A4"
+    PaperUnits		    "centimeters"
+    ZoomFactor		    "100"
+    ReportName		    "simulink-default.rpt"
+    Block {
+      BlockType		      Display
+      Name		      "Display"
+      Ports		      [1]
+      Position		      [495, 42, 585, 88]
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display1"
+      Ports		      [1]
+      Position		      [495, 111, 585, 199]
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display2"
+      Ports		      [1]
+      Position		      [455, 231, 545, 259]
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      Display
+      Name		      "Display4"
+      Ports		      [1]
+      Position		      [455, 293, 545, 357]
+      Decimation	      "1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "createbuffer"
+      Ports		      [0, 1]
+      Position		      [40, 164, 85, 246]
+      BackgroundColor	      "green"
+      ShowName		      off
+      SourceBlock	      "RS232/createbuffer"
+      SourceType	      "createbuffer"
+      minbuffsize	      "128"
+      sampletime	      "-1"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "createbuffer2"
+      Ports		      [1, 1]
+      Position		      [325, 276, 370, 354]
+      BackgroundColor	      "green"
+      ShowName		      off
+      SourceBlock	      "RS232/createbuffer2"
+      SourceType	      "createbuffer"
+      sampletime	      "-1"
+    }
+    Block {
+      BlockType		      "S-Function"
+      Name		      "readBinBuffer"
+      Ports		      [3, 5]
+      Position		      [320, 89, 365, 171]
+      BackgroundColor	      "green"
+      ShowName		      off
+      FunctionName	      "RS232_ReadB_Buffer"
+      Parameters	      "fmtString,sampTime,allocstep"
+      MaskType		      "readbinbuffer"
+      MaskDescription	      "RS232 Read Binary Buffer"
+      MaskHelp		      "RS232 Read Binary Buffer"
+      MaskPromptString	      "Format String|Sample time|Allocation Step"
+      MaskStyleString	      "edit,edit,edit"
+      MaskTunableValueString  "on,on,on"
+      MaskCallbackString      "||"
+      MaskEnableString	      "on,on,on"
+      MaskVisibilityString    "on,on,on"
+      MaskToolTipString	      "on,on,on"
+      MaskVarAliasString      ",,"
+      MaskVariables	      "fmtString=&1;sampTime=@2;allocstep=@3;"
+      MaskDisplay	      "disp('RS232\\nRead\\nBinary\\nBuffer');"
+      MaskIconFrame	      on
+      MaskIconOpaque	      on
+      MaskIconRotate	      "none"
+      MaskIconUnits	      "autoscale"
+      MaskValueString	      "2i1,3u4,1d8|-1|512"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "readBinBuffer2"
+      Ports		      [3, 2]
+      Position		      [175, 75, 220, 155]
+      BackgroundColor	      "green"
+      ShowName		      off
+      SourceBlock	      "RS232/readBinBuffer2"
+      SourceType	      "synchbinbuffer"
+      synchsize		      "2"
+      mask		      "0xffff"
+      value		      "0x0209"
+      sampTime		      "-1"
+      allocstep		      "512"
+    }
+    Block {
+      BlockType		      Reference
+      Name		      "setup1"
+      Ports		      [0, 2]
+      Position		      [35, 35, 80, 115]
+      BackgroundColor	      "green"
+      ShowName		      off
+      SourceBlock	      "RS232/setup"
+      SourceType	      "setup"
+      port		      "COM1"
+      baudrate		      "38400"
+      databit		      "8"
+      stopbit		      "1"
+      parity		      "None"
+    }
+    Line {
+      SrcBlock		      "createbuffer"
+      SrcPort		      1
+      Points		      [60, 0]
+      Branch {
+	Points			[0, -65]
+	DstBlock		"readBinBuffer2"
+	DstPort			3
+      }
+      Branch {
+	Points			[115, 0]
+	Branch {
+	  Points		  [0, -50]
+	  DstBlock		  "readBinBuffer"
+	  DstPort		  3
+	}
+	Branch {
+	  Points		  [45, 0]
+	  DstBlock		  "createbuffer2"
+	  DstPort		  1
+	}
+      }
+    }
+    Line {
+      SrcBlock		      "setup1"
+      SrcPort		      2
+      Points		      [45, 0; 0, 20]
+      DstBlock		      "readBinBuffer2"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "setup1"
+      SrcPort		      1
+      Points		      [75, 0]
+      DstBlock		      "readBinBuffer2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "readBinBuffer2"
+      SrcPort		      1
+      Points		      [80, 0]
+      DstBlock		      "readBinBuffer"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "readBinBuffer2"
+      SrcPort		      2
+      Points		      [0, -5]
+      DstBlock		      "readBinBuffer"
+      DstPort		      2
+    }
+    Line {
+      SrcBlock		      "readBinBuffer"
+      SrcPort		      5
+      Points		      [35, 0; 0, 85]
+      DstBlock		      "Display2"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "createbuffer2"
+      SrcPort		      1
+      Points		      [65, 0]
+      DstBlock		      "Display4"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "readBinBuffer"
+      SrcPort		      3
+      Points		      [55, 0; 0, -65]
+      DstBlock		      "Display"
+      DstPort		      1
+    }
+    Line {
+      SrcBlock		      "readBinBuffer"
+      SrcPort		      4
+      Points		      [55, 0; 0, 10]
+      DstBlock		      "Display1"
+      DstPort		      1
+    }
+  }
+}
