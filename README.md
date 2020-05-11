@@ -1,6 +1,6 @@
 # RS232_For_Matlab (aka RS232 Blockset)
 
-<h1>Title: RS232 Blockset<h1>
+<h1>Title: RS232 Blockset</h1>
 Summary: This blockset allows Simulink to communicate with remote devices using RS232 interface
 Description: RS232 Blockset is a block library that allows to a simulation model to communicate directly and in real time (using, for example, the RT Blockset also published in Matlab Central) with a remote device.
 Actually, it's possible to use a simple communication protocol based on formatted string (in which simulation data is used to compose the message) using a ANSI C printf-like formatting standard. 
